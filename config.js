@@ -18,9 +18,9 @@ if (!gg) {
 
 global.owner = gg.split(",");
 
-global.mongodb = process.env.MONGODB || "mongodb+srv://rajdevorcreator:Sten-X001@cluster0.bfbbyuu.mongodb.net/?appName=Cluster0";
+global.mongodb = process.env.MONGODB || "mongodb+srv://proppla784_db_user:atlas86h@cluster0.rww1eg5.mongodb.net/?appName=Cluster0";
 
-global.sessionId = process.env.SESSION_ID || "Marin7";
+global.sessionId = process.env.SESSION_ID || "testgit";
 
 global.prefa = process.env.PREFIX || "!";
 
