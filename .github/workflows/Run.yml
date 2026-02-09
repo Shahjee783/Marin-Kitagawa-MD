@@ -1,5 +1,5 @@
-     - name: shahzad
-   
+name: Marin free Deploy 
+
 on:
   push:
     branches: [ main ]
