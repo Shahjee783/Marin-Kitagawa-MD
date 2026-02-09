@@ -17,10 +17,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+          cache: 'npm' # Speeds up builds by caching dependencies
 
-      - name: Setup FFmpeg
-        uses: [FedericoCarboni/setup-ffmpeg](https://github.com)@v3
+      - name: Install FFmpeg
+        uses: FedericoCarboni/setup-ffmpeg@v3
         with:
+          # Automatically downloads the latest stable FFmpeg release
           ffmpeg-version: release
 
       - name: Install Dependencies
@@ -28,3 +30,4 @@ jobs:
 
       - name: Run Bot
         run: npm start
+        
