@@ -1,5 +1,3 @@
-name: WhatsApp Bot Test
-
 on:
   push:
     branches: [ main ]
@@ -17,6 +15,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
+
+      - name: Setup FFmpeg
+        uses: [FedericoCarboni/setup-ffmpeg](https://github.com)@v3
+        with:
+          ffmpeg-version: release
 
       - name: Install Dependencies
         run: npm install
