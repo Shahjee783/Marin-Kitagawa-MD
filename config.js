@@ -18,9 +18,9 @@ if (!gg) {
 
 global.owner = gg.split(",");
 
-global.mongodb = process.env.MONGODB || "mongodb+srv://rajdevorcreator:Sten-X001@cluster0.bfbbyuu.mongodb.net/?appName=Cluster0";
+global.mongodb = process.env.MONGODB || "mongodb+srv://proppla784_db_user:atlas86h@cluster0.rww1eg5.mongodb.net/?appName=Cluster0";
 
-global.sessionId = process.env.SESSION_ID || "testgit2";
+global.sessionId = process.env.SESSION_ID || "testgit4";
 
 global.prefa = process.env.PREFIX || ".";
 
@@ -30,7 +30,7 @@ global.packname = process.env.PACKNAME || `Marin MD`;
 
 global.author = process.env.AUTHOR || "by: Sten-X";
 
-global.port = process.env.PORT || "8000";
+global.port = process.env.PORT || "8080";
 
 // ---------------------Do Not Modify this part------------------- //
 
